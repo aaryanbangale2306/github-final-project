@@ -1,0 +1,26 @@
+$ git fetch --all
+Fetching origin
+
+$ git branch -vv
+  bug-fix-revert 4f01779 [origin/bug-fix-revert] Fix typo in README.md
+  bug-fix-typo   4f01779 [origin/bug-fix-typo] Fix typo in README.md
+* main           4f01779 [origin/main] Fix typo in README.md
+
+$ git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+$ git remote -v
+origin  https://github.com/aaryanbangale2306/github-final-project.git (fetch)
+origin  https://github.com/aaryanbangale2306/github-final-project.git (push)
