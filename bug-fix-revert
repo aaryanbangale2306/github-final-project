@@ -1,4 +1,4 @@
-﻿TASK 8 — BUG FIX REVERT PR VERIFICATION
+TASK 8 — BUG FIX REVERT PR VERIFICATION
 
 Command:
 $ curl -L -H "Accept: application/vnd.github+json" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/11843
